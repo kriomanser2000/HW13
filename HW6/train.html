@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train</title>
+    <link rel="stylesheet" href="train.css">
+</head>
+<body>
+    <h1>Booking train tickets</h1>
+<h2>Select the destination and date of your trip</h2>
+<form id="bookingForm">
+  <label for="destination">Direction: </label>
+  <select id="destination" name="destination">
+    <option value="Kyiv">Kyiv</option>
+    <option value="Lviv">Lviv</option>
+    <option value="Kharkiv"></option>
+  </select><br><br>
+  <label for="date">Date of travel: </label>
+  <input type="date" id="date" name="date"><br><br>
+  <input type="submit" value="Find a train">
+</form>
+<h2>Choose places to book</h2>
+<div id="seats"></div>
+<h2>Booked tickets</h2>
+<div id="bookedTickets"></div>
+    <script src="train.js"></script>
+</body>
+</html>

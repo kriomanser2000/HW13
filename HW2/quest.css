@@ -1,0 +1,13 @@
+body 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+.question 
+{
+    margin-bottom: 15px;
+}
+.options 
+{
+    margin-bottom: 10px;
+}

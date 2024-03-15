@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messages</title>
+    <link rel="stylesheet" href="messages.css">
+</head>
+<body>
+    <div id="forum">
+        <h1>Forum</h1>
+        <div id="messages">
+        </div>
+        <form id="messageForm">
+            <label for="author">Author: </label>
+            <input type="text" id="author" name="author" required><br>
+            <label for="message">Message: </label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+            <button type="submit">Add Message</button>
+        </form>
+    </div>
+    <script src="messages.js"></script>
+</body>
+</html>

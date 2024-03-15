@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogBook</title>
+    <link rel="stylesheet" href="logbook.css">
+</head>
+<body>
+    <h1>Attendance Tracker</h1>
+<form id="attendanceForm">
+    <label for="group">Group: </label>
+    <select id="group">
+        <option value="group1">Group 1</option>
+        <option value="group2">Group 2</option>
+    </select><br>
+    <label for="lecture">Lecture: </label>
+    <select id="lecture">
+        <option value="lecture1">Lecture 1</option>
+        <option value="lecture2">Lecture 2</option>
+    </select><br>
+    <label for="topic">Theme Lecture: </label>
+    <input type="text" id="topic"><br>
+    <label>Attended: </label><br>
+    <input type="checkbox" name="attendance" value="student1">Student 1<br>
+    <input type="checkbox" name="attendance" value="student2">Student 2<br>
+    <button type="button" onclick="submitAttendance()">Save</button>
+</form>
+<h2>Marked pairs</h2>
+<ul id="attendanceList"></ul>
+    <script src="logbook.js"></script>
+</body>
+</html>

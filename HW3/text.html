@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text</title>
+    <link rel="stylesheet" href="text.css">
+</head>
+<body>
+    <form id="textForm">
+        <label for="textInput">Enter Text: </label><br>
+        <textarea id="textInput" name="textInput" rows="4" cols="50"></textarea><br><br>       
+        <input type="checkbox" id="boldCheckbox" name="style" value="bold">
+        <label for="boldCheckbox">Bold</label><br>
+        <input type="checkbox" id="underlineCheckbox" name="style" value="underline">
+        <label for="underlineCheckbox">Underline</label><br>
+        <input type="checkbox" id="italicCheckbox" name="style" value="italic">
+        <label for="italicCheckbox">Italic</label><br>
+        <input type="checkbox" id="leftCheckbox" name="style" value="left">
+        <label for="leftCheckbox">Left Align</label><br>
+        <input type="checkbox" id="rightCheckbox" name="style" value="right">
+        <label for="rightCheckbox">Right Align</label><br>
+        <input type="checkbox" id="justifyCheckbox" name="style" value="justify">
+        <label for="justifyCheckbox">Justify</label><br><br>
+        <button type="button" onclick="applyStyles()">Apply Styles</button>
+    </form>
+    <div class="output" id="output"></div>
+    <script src="text.js"></script>
+</body>
+</html>
